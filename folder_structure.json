@@ -1,0 +1,50 @@
+{
+  "parent": "Arsh Test",
+  "children": [
+    {
+      "name": "Contact Sync",
+      "recipes": [
+        {
+          "name": "Contact Sync",
+          "code": "{}",
+          "config": "[]",
+          "description": "Contact sync recipe"
+        }
+      ]
+    },
+    {
+      "name": "Pom Sync",
+      "recipes": [
+        {
+          "name": "Aws Lambda",
+          "code": "{}",
+          "config": "[]",
+          "description": "AWS Lambda recipe"
+        },
+        {
+          "name": "Pom Sync",
+          "code": "{}",
+          "config": "[]",
+          "description": "Pom sync recipe"
+        }
+      ]
+    },
+    {
+      "name": "Activity Sync",
+      "recipes": [
+        {
+          "name": "Evict Activities",
+          "code": "{}",
+          "config": "[]",
+          "description": "Evict activities recipe"
+        },
+        {
+          "name": "Buffer Activities",
+          "code": "{}",
+          "config": "[]",
+          "description": "Buffer activities recipe"
+        }
+      ]
+    }
+  ]
+}
